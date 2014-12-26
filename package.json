@@ -1,0 +1,8 @@
+{
+  "name": "Adriano-Chiliseo-Demo-Node-Js",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest",
+    "swig": "^1.4.2"
+  }
+}

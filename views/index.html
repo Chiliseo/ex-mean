@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+ {%block contenidoArray %}
+
+ {% for contenido in a %}
+              <td>
+                {{ contenido.name }}
+			  </td>	
+			  <td>
+                {{ contenido.email }}
+			  </td>	
+              	<td>
+              	{{ contenido.phone }}
+              	</td>
+              <td width=250>
+              <a class="btn btn-success" href="{{contenido.id}}">Update</a>
+              <a class="btn btn-danger" href="{{contenido.id}}">Delete</a>'
+              </td>
+              </tr>
+ {% endfor %}
+ {% endblock %}

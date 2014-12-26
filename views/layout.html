@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link   href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+ 
+<body>
+    <div class="container">
+            <div class="row">
+                <h3>Stack MEAN</h3>
+            </div>
+            <div class="row">
+                <p>
+                    <a href="#" class="btn btn-success">Create</a>
+                </p>
+                 
+                <table class="table table-striped table-bordered">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Email Address</th>
+                          <th>Mobile Number</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+              {%block contenidoArray %}
+              
+              {% endblock%}
+                      </tbody>
+                </table>
+        </div>
+    </div> <!-- /container -->
+  </body>
+</html>
