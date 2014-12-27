@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "latest",
+    "mongodb": "^1.4.26",
     "swig": "^1.4.2"
   }
 }
