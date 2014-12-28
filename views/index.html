@@ -3,6 +3,7 @@
  {%block contenidoArray %}
 
  {% for contenido in a %}
+        <tr>     
               <td>
                 {{ contenido.name }}
 			  </td>	
@@ -16,6 +17,6 @@
               <a class="btn btn-success" href="{{contenido.id}}">Update</a>
               <a class="btn btn-danger" href="{{contenido.id}}">Delete</a>'
               </td>
-              </tr>
+          </tr>
  {% endfor %}
  {% endblock %}
